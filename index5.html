@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morng Sreylen - CV</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: white;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333;
+        }
+
+        .cv {
+            width: 100%;
+            max-width: 1100px;
+            margin: auto;
+            padding: 25px 35px;
+        }
+
+        .name {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        .line {
+            border-top: 1px solid #ddd;
+            margin-bottom: 28px;
+        }
+
+        .job-title {
+            color: #187d35;
+            font-size: 23px;
+            font-weight: bold;
+            margin-bottom: 65px;
+        }
+
+        .top-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 35px;
+        }
+
+        .contact {
+            line-height: 2.2;
+            font-size: 17px;
+        }
+
+        .profile-image {
+            image-rendering: ;
+            width: 220px;
+            height: 180px;
+            object-fit: contain;
+            margin-right: 45px;
+        }
+
+        .section-title {
+            color: #187d35;
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 25px;
+            margin-bottom: 22px;
+        }
+
+        .skills {
+            font-size: 17px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .education-item,
+        .experience-item {
+            margin-bottom: 25px;
+        }
+
+        .blue-title {
+            color: #263fb8;
+            font-weight: bold;
+            font-size: 17px;
+            margin-bottom: 20px;
+        }
+
+        .date {
+            font-size: 17px;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            font-size: 17px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            margin-top: 0;
+            padding-left: 45px;
+            font-size: 17px;
+            line-height: 1.45;
+        }
+
+        .experience {
+            margin-top: 25px;
+        }
+
+        .company {
+            color: #263fb8;
+            font-weight: bold;
+            font-size: 17px;
+            margin-bottom: 22px;
+        }
+
+        .experience .skills-text {
+            font-size: 17px;
+            margin-top: 25px;
+        }
+
+        footer {
+            border-top: 1px solid #ccc;
+            margin-top: 25px;
+            padding-top: 20px;
+            font-size: 16px;
+        }
+
+        @media (max-width: 700px) {
+            .cv {
+                padding: 20px;
+            }
+
+            .top-section {
+                flex-direction: column;
+            }
+
+            .profile-image {
+                margin: 20px auto;
+            }
+
+            .name {
+                font-size: 25px;
+            }
+
+            .job-title {
+                margin-bottom: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="cv">
+
+    <!-- Name -->
+    <div class="name">Morng Sreylen</div>
+
+    <div class="line"></div>
+
+    <!-- Job Title -->
+    <div class="job-title">
+        Web Developer
+    </div>
+
+    <!-- Contact + Image -->
+    <div class="top-section">
+
+        <div class="contact">
+            <div>Home(102), St(10)</div>
+            <div>New Worl ChhukvaII</div>
+            <div>(+885) 95929790</div>
+            <div>morng.sreylen.1224@rupp.edu.kh</div>
+        </div>
+
+        <!-- Put your image here -->
+        <img 
+            src="./image/image_2025-07-01_09-44-35.png" 
+            alt="Profile Photo"
+            class="profile-image"
+        >
+
+    </div>
+
+    <!-- Skills -->
+    <div class="section-title">Skills</div>
+
+    <div class="skills">
+        HTML, CSS, JavaScript, Accessibility, Figma to Design,
+        Responsive Web Design, Technical Writing, Presentation
+    </div>
+    <!-- Education -->
+    <div class="section-title">Education</div>
+
+    <div class="education-item">
+
+        <div class="blue-title">
+            RUPP, Phnum Penh - Bachelor's degree Computer Science and Engineering
+        </div>
+
+        <div class="date">
+            Month xxx$ to Month xxx$
+        </div>
+
+        <div class="description">
+            During my studies in Compuer Science and Engineering, I have learn and practiced programming languages such as HTML,
+            CSS,JavaScript, Java, and Python. I have also syudied database and SQL and worked on small web development projects.
+            These experience I have improve my problem-solving amd teamwork skills and increased my interest in puisuing a career
+            as a Web Developer.
+        </div>
+
+    </div>
+
+    <!-- Experience -->
+    <div class="section-title">Experience</div>
+
+    <div class="experience">
+
+        <div class="company">
+            Company Name, Location - Job Title
+        </div>
+
+        <div class="date">
+            Month xxx$ to Month xxx$
+        </div>
+
+        <ul>
+            <li>Completed academic projects in Web Development.Developed small web projects using HTML, CSS, and JavaScript.</li>
+            <li>Completed programming and database projects using Java, Python, and SQL.</li>
+            <li>Participated in university group projects and presentations.</li>
+        </ul>
+
+        <div class="skills-text">
+            Skills: List of skills through Academic Projects
+        </div>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Web Design</li>
+            <li>SQL & database</li>
+            <li>problem-solving</li>
+            <li>Teamwork</li>
+        </ul>
+    </div>
+
+    <div class="experience">
+
+        <div class="company">
+            Company Name, Location - Job Title
+        </div>
+
+        <div class="date">
+            Month 20xx to Month 20xx
+        </div>
+
+        <ul>
+            <li>List of achievements</li>
+            <li>List of achievements</li>
+            <li>List of achievements</li>
+        </ul>
+
+        <div class="skills-text">
+            Skills: List of skills used or gained at this company
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        Copyright © 2026 by www.Morng Sreylen.com All rights reserved.
+    </footer>
+
+</div>
+
+</body>
+</html>
