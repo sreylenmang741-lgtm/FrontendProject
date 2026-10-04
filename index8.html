@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CV Resume</title>
+
+    <style>
+
+        body {
+
+            background-color: #efefef;
+
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+
+            padding: 30px;
+
+        }
+
+        .container {
+
+            width: 1000px;
+
+            margin: auto;
+
+            background-color: #f7f7f7;
+
+            padding: 30px;
+
+        }
+
+        .header {
+
+            display: flex;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+        }
+
+        h1 {
+
+            font-size: 40px;
+
+            margin-bottom: 10px;
+
+        }
+
+        h3 {
+
+            font-size: 23px;
+
+            color: green;
+
+        }
+
+        .profile {
+
+            width: 210px;
+
+            height: 210px;
+
+            object-fit: cover;
+
+        }
+
+        hr {
+
+            border: 0;
+
+            border-top: 1px solid #cfcfcf;
+
+            margin: 25px 0;
+
+        }
+
+        .contact {
+
+            line-height: 1.8;
+
+            font-size: 15px;
+
+        }
+
+        h2 {
+
+            color: green;
+
+            font-size: 25px;
+
+            border-bottom: 1px solid #ccc;
+
+            padding-bottom: 8px;
+
+            margin-top: 25px;
+
+        }
+
+        .education,
+
+        .experience {
+
+            color: #1d5fbf;
+
+            font-weight: bold;
+
+            font-size: 16px;
+
+        }
+
+        p {
+
+            font-size: 15px;
+
+            line-height: 1.7;
+
+        }
+
+        ul {
+
+            padding-left: 25px;
+
+        }
+
+        li {
+
+            font-size: 15px;
+
+            line-height: 1.7;
+
+            margin-bottom: 5px;
+
+        }
+
+        @media screen and (max-width: 768px) {
+
+            body {
+
+                padding: 10px;
+
+            }
+
+            .container {
+
+                width: 100%;
+
+                padding: 15px;
+
+                box-sizing: border-box;
+
+            }
+
+            .header {
+
+                flex-direction: column;
+
+                align-items: flex-start;
+
+            }
+
+            .profile {
+
+                width: 150px;
+
+                height: 150px;
+
+            }
+
+            h1 {
+
+                font-size: 30px;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+
+        <div class="header">
+
+            <div>
+
+                <h1>Morng Sreylen</h1>
+
+                <h3>Junior Frontend Developer</h3>
+
+            </div>
+
+            <img src="pic.jpg" class="profile" alt="Profile photo">
+
+        </div>
+
+        <hr>
+
+        <!-- Contact -->
+
+        <div class="contact">
+
+            No. 102, Street 10, Sangkat Somroang Krom<br>
+
+            Khan Por Sen Chey, Phnom Penh, Cambodia<br>
+
+            +855 95 929 790<br>
+
+            Sreylen.dev@example.com
+
+        </div>
+
+        <!-- Skills -->
+
+        <section>
+
+            <h2>Skills</h2>
+
+            <p>
+
+                HTML, CSS, JavaScript, Accessibility,
+
+                Figma to Design, Responsive Web Design,
+
+                Technical Writing, Presentation
+
+            </p>
+
+        </section>
+
+        <!-- Education -->
+
+        <section>
+
+            <h2>Education</h2>
+
+            <div class="education">
+
+                Royal University of Phnom Penh, Phnom Penh, Cambodia -
+
+                Bachelor of Science in Computer Science
+
+            </div>
+
+            <p>September 2020 to May 2024</p>
+
+            <ul>
+
+                <li>
+
+                    Won 2nd place at the Royal University hackathon by
+
+                    building a real-time campus event app with React and Firebase
+
+                </li>
+
+                <li>
+
+                    Led a 4-person team on a capstone project:
+
+                    a student attendance tracker used by 3 classes
+
+                </li>
+
+                <li>
+
+                    Served as vice president of the Computer Science Club,
+
+                    organizing 6 coding workshops for 80+ students
+                    </li>
+
+                <li>
+
+                    Graduated with honors and a 3.7 GPA
+
+                </li>
+
+            </ul>
+
+        </section>
+
+        <!-- Experience -->
+
+        <section>
+
+            <h2>Experience</h2>
+
+            <div class="experience">
+
+                Voltrix Systems, Phnom Penh, Cambodia -
+
+                Front End Developer Intern
+
+            </div>
+
+            <p>June 2023 to February 2024</p>
+
+            <ul>
+
+                <li>
+
+                    Developed a customer dashboard with JavaScript and
+
+                    Chart.js, giving 200+ users real-time usage analytics
+
+                </li>
+
+                <li>
+
+                    Converted 15 Figma designs into pixel-accurate,
+
+                    mobile-friendly HTML and CSS pages
+
+                </li>
+
+                <li>
+
+                    Wrote unit tests with Jest that increased front end
+
+                    test coverage from 40% to 70%
+
+                </li>
+
+            </ul>
+
+        </section>
+
+    </div>
+
+</body>
+
+</html>
